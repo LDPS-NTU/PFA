@@ -1,4 +1,4 @@
-# PFA
+# Protein Function Annotation
 
 ## Motivation: 
 Homology-based transfer is frequently used to predict protein functions of unannotated sequences through similarity analysis between the target and previously annotated sequences. The most direct and accessible homology-based transfer approach is sequence alignment. However, its accuracy varies with keywords. To assess the reliability of alignment-based prediction, we applied a 10-fold cross-validation test in SWISS-Prot database. We compared Matthews correlation coefficient (MCC), sensitivity, and precision, and examined different parameter settings used in the alignment-based methods, with BLASTp and PSI-BLAST.
